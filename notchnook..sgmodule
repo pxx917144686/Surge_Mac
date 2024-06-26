@@ -1,0 +1,10 @@
+#!name= Notchnook 破解 
+#!@pxx917144686
+#!desc=Activate your software by intercepting the activation process - @wibus-wee
+
+[MITM]
+hostname = lo.cafe
+
+[Script]
+# notchnook破解
+notchnook-verify-key = type=http-response,pattern=^https:\/\/lo\.cafe\/api\/notchnook-verify-key$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/pxx917144686/pxx/main/notchnook.js,script-update-interval=86400
