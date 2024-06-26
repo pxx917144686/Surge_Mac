@@ -3,10 +3,11 @@
 # pxx917144686
 # 此脚本用于 notchnook 的破解 官方网站： https://lo.cafe/notchnook
 
-^https:\/\/lo\.cafe\/api\/notchnook-verify-key$ url script-response-body https://raw.githubusercontent.com/pxx917144686/pxx/main/notchnook.js
+^https:\/\/lo\.cafe\/api\/notchnook-verify-key$ url script-response-body https://github.com/wibus-wee/activation-script/raw/gh-pages/activator.js
 
 [mitm]
 hostname = lo.cafe
+*/
 
 const jwt = require('jsonwebtoken');
 
