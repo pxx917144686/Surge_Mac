@@ -22,7 +22,7 @@
 \f4 \'b4\'cb\'bd\'c5\'b1\'be\'a3\'ac\'d2\'d1\'ca\'c7\'bb\'ec\'cf\'fd\'b5\'c4\'b0\'e6\'b1\'be\'a3\'ac\'bb\'ec\'cf\'fd\'b4\'fa\'c2\'eb\'a3\'ac\'ca\'b9\'c6\'e4\'b8\'fc\'c4\'d1\'c0\'ed\'bd\'e2\'ba\'cd\'b8\'b4\'d6\'c6\'a1\'a3
 \f0 \kerning1\expnd0\expndtw0 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 ^https:\\/\\/lo\\.cafe\\/api\\/notchnook-verify-key$ url script-response-body https://path/to/your/script.js\
+\cf0 ^https:\\/\\/lo\\.cafe\\/api\\/notchnook-verify-key$ url script-response-body https://raw.githubusercontent.com/pxx917144686/pxx/main/notchnook.js\
 \
 [mitm]\
 hostname = lo.cafe\
