@@ -1,12 +1,17 @@
 /*
 [rewrite_local]
-# pxx917144686
-# 此脚本用于 notchnook 的破解 官方网站： https://lo.cafe/notchnook
+# notchnook 破解
+# 此脚本用于 notchnook 的破解
 
-^https:\/\/lo\.cafe\/api\/notchnook-verify-key$ url script-response-body https://github.com/wibus-wee/activation-script/raw/gh-pages/activator.js
+^https:\/\/api\.lemonsqueezy\.com\/v1\/licenses url script-response-body https://github.com/wibus-wee/activation-script/raw/gh-pages/notchnook.js
+^https:\/\/v3\.paddleapi\.com\/3\.2\/license url script-response-body https://github.com/wibus-wee/activation-script/raw/gh-pages/notchnook.js
+^https:\/\/api\.gumroad\.com\/v2\/licenses url script-response-body https://github.com/wibus-wee/activation-script/raw/gh-pages/notchnook.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://github.com/wibus-wee/activation-script/raw/gh-pages/notchnook.js
+^https:\/\/backend\.raycast\.com\/api\/v1\/me url script-response-body https://github.com/wibus-wee/activation-script/raw/gh-pages/notchnook.js
+^https:\/\/shottr\.cc\/licensing\/verify\.php url script-response-body https://github.com/wibus-wee/activation-script/raw/gh-pages/notchnook.js
 
 [mitm]
-hostname = lo.cafe
+hostname = api.lemonsqueezy.com, v3.paddleapi.com, api.gumroad.com, buy.itunes.apple.com, backend.raycast.com, shottr.cc
 */
 
 const jwt = require('jsonwebtoken');
