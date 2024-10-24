@@ -110,6 +110,13 @@ C2BF5D3B-F4AC9F5F-A8EB4B9E-B8AA5E8D-E2CC5C8D
 
 -   [x] iShot Pro `$12.99`
 
+### Screen Studio
+
+> [!WARNING]
+> 由于 Screen Studio 的限制，这个功能只能用于支持开启 Skip Network Certificate Validation 的版本。
+
+- License Key: `64fd88be-79c0-4167-8078-680ddef8cbc5`
+
 ### LemonSqueezy
 
 -   [x] Screen Studio `$89` - <sup>***`Only support <= 2.20 version` & `64fd88be-79c0-4167-8078-680ddef8cbc5`***</sup>
@@ -164,7 +171,7 @@ IFZONWUNB-OWLYVQKQB-YFNIKSXBS-MCLRA
 
 Script currently supports the following applications from Lo.Cafe:
 
--   [x] NotchNook `$40`
+-   [ ] NotchNook `$40` <sup>***`🐛 Bug`***</sup>
 
 ### Raycast Pro Plan
 
